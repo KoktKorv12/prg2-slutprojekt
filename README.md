@@ -1,10 +1,7 @@
 # prg2-slutprojekt
+Slutprojekt - Programmering 2, ett spel som samlar highscore i databas.
 
-## Inledning
-
-## Syftet
-
-## Krav
+Slutprojekt skall innehålla följande delar:
 
 - OOP
 - MVC
