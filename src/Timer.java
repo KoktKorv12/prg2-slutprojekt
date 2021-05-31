@@ -7,6 +7,5 @@ public class Timer {
 
     public long time() {
         return System.currentTimeMillis() - startTime;
-
     }
 }

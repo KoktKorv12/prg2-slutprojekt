@@ -6,14 +6,14 @@ public class ViewModel extends JFrame{
     private JPanel panel1;
     private JButton exitButton;
     private JButton score;
-    private JList list;
+    private JList scoreList;
     private DefaultListModel listModel;
 
     ViewModel(){
         this.add(panel1);
         listModel = new DefaultListModel();
-        list.setModel(listModel);
-        list.setVisible(false);
+        scoreList.setModel(listModel);
+        scoreList.setVisible(false);
         time.setEditable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(1000,800);
@@ -31,19 +31,19 @@ public class ViewModel extends JFrame{
     }
 
     public void scoreboard(User[] user){
-        if (!list.isVisible()){
-            list.setVisible(true);
+        if (!scoreList.isVisible()){
+            scoreList.setVisible(true);
             time.setVisible(false);
             exitButton.setVisible(false);
-            score.setText("Back to gaming?");
+            score.setText("Exit scoreboard?");
             for (int i = 0; i < 10; i++){
                 listModel.addElement(user[i].getName() + " " + user[i].getScore());
             }
         } else{
-            list.setVisible(false);
+            scoreList.setVisible(false);
             time.setVisible(true);
             exitButton.setVisible(true);
-            score.setText("scorebord");
+            score.setText("Scoreboard");
         }
     }
     void topscore(ActionListener actionListener){
