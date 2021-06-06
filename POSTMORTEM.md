@@ -25,17 +25,15 @@ Eftersom att programmet i skrivet med OOP i tanke är arbetet uppdelat i flera o
 - ViewModel.java
 - ViewModel.form
 
-Databasen kopplas till programmet med hjälp av _Database.java_ samt _DatabaseConnection.java_.
+## Databas
+
 Använd gärna bilder för att illustrera.
 
 För att lägga till bilder i markdown. Bilderna kan du ladda upp med Git som vanligt, länka dem med url eller filnamnet.
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-NTI Gymnasiet Umeå Logo
-
 # Positiva erfarenheter
 Här beskriver du vad som har gått bra i ditt projekt och analyserar varför. Hur ska du upprepa framgångarna.
+Det som jag tyckte bra var att jag inte stötte på många problem med min kod, det var mest småproblem som gick relativt snabbt att fixa. Detta 
 
 # Negativa erfarenheter
 Här beskriver du det som du anser har gått mindre bra med ditt projekt och analyserar hur du kan undvika detta i framtida projekt.
